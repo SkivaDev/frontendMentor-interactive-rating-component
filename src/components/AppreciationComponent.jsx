@@ -3,7 +3,7 @@ import thankYou from "../assets/images/illustration-thank-you.svg";
 
 function AppreciationComponent({ ratingNumber }) {
   return (
-    <div className="w-[430px] h-[430px] bg-dark-blue p-[30px] rounded-3xl flex flex-col justify-between items-center py-[45px]">
+    <div className="w-[430px] h-[430px] container p-[30px] rounded-3xl flex flex-col justify-between items-center py-[45px]">
       <div>
         <div className=" w-auto h-[120px] mb-7">
           <img className=" h-full" src={thankYou} alt="thankYou" />
