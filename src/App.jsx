@@ -8,11 +8,12 @@ import AppreciationComponent from './components/AppreciationComponent'
 function App() {
 
   const [isSummited, setIsSummited] = useState(false);
+  const [ratingNumber, setRatingNumber] = useState(0);
 
 
   return (
     <main className="flex justify-center items-center w-full h-screen">
-      {isSummited ? (<AppreciationComponent setIsSummited={setIsSummited}/>):(<RatingComponent setIsSummited={setIsSummited}/>)}
+      {isSummited ? (<AppreciationComponent ratingNumber={ratingNumber}/>):(<RatingComponent setIsSummited={setIsSummited} setRatingNumber={setRatingNumber} ratingNumber={ratingNumber}/>)}
     </main>
   )
 }
