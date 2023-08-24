@@ -8,7 +8,7 @@ function AppreciationComponent({ ratingNumber }) {
         <div className=" w-auto h-[120px] mb-7">
           <img className=" h-full" src={thankYou} alt="thankYou" />
         </div>
-        <div className="bg-medium-gray px-[15px] py-[8px] rounded-full flex justify-center items-center leading-none">
+        <div className="bg-secondary text-orange px-[15px] py-[8px] rounded-full flex justify-center items-center leading-none">
           You selected {ratingNumber} out of 5
         </div>
       </div>

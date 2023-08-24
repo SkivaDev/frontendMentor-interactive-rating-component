@@ -7,9 +7,9 @@ function RatingComponent({ setIsSummited, setRatingNumber, ratingNumber }) {
     e.preventDefault();
     setIsSummited(true);
   };
-  
+
   return (
-    <div className="w-[430px] h-[430px] bg-dark-blue p-[30px] rounded-3xl">
+    <div className="w-[430px] h-[430px] bg-dark-blue p-[30px] rounded-3xl m-[25px]">
       <form
         className="w-full h-full flex flex-col justify-between"
         onSubmit={handleSubmit}
