@@ -9,7 +9,7 @@ function RatingComponent({ setIsSummited, setRatingNumber, ratingNumber }) {
   };
 
   return (
-    <div className="w-[430px] h-[430px] bg-dark-blue p-[30px] rounded-3xl m-[25px]">
+    <div className="w-[430px] h-[430px] container p-[30px] rounded-3xl m-[25px]">
       <form
         className="w-full h-full flex flex-col justify-between"
         onSubmit={handleSubmit}
