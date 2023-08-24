@@ -9,9 +9,10 @@ function App() {
 
   const [isSummited, setIsSummited] = useState(false);
 
+
   return (
     <main className="flex justify-center items-center w-full h-screen">
-      {isSummited ? (<AppreciationComponent/>):(<RatingComponent/>)}
+      {isSummited ? (<AppreciationComponent setIsSummited={setIsSummited}/>):(<RatingComponent setIsSummited={setIsSummited}/>)}
     </main>
   )
 }
